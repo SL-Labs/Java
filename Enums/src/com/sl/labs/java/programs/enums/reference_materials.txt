@@ -1,0 +1,7 @@
+http://javarevisited.blogspot.in/2011/08/enum-in-java-example-tutorial.html
+http://www.xyzws.com/Javafaq/what-can-or-can-not-for-the-java-enum-type-when-you-use-it/136
+http://javahowto.blogspot.in/2008/04/java-enum-examples.html 
+http://javahowto.blogspot.in/2006/10/java-enum-and-its-superclass.html
+http://java67.blogspot.in/2012/10/java-enum-valueof-example-how-to-use.html
+http://viralpatel.net/blogs/convert-string-to-enum-instance-string-enum-java/
+
