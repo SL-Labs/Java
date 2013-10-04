@@ -51,7 +51,7 @@ public class NestedEnum
 	{
 		NestedEnum ne = new NestedEnum();
 		
-		// whenever we ***REMOVED*** an EnumConstant as argument for sysout() it will call that particular EnumConstant specific toString()
+		// whenever we pass an EnumConstant as argument for sysout() it will call that particular EnumConstant specific toString()
 		System.out.println(ne.out);
 		System.out.println(ne.inner);
 		
@@ -63,7 +63,7 @@ public class NestedEnum
 		// normal enum declaration
 		Simple simple = Simple.SIMPLE;
 		
-		// whenever we ***REMOVED*** an EnumConstant as argument for sysout() it will call that particular EnumConstant specific toString()
+		// whenever we pass an EnumConstant as argument for sysout() it will call that particular EnumConstant specific toString()
 		// if that particular EnumConstant specific toString() is not defined then it will call the common overridded implementation of enum's toString()
 		// if that particular common overridded implementation of enum's toString() is not defined then it will call the EnumConstant.name()
 		System.out.println(outter);
@@ -79,7 +79,7 @@ public class NestedEnum
 			System.out.println(oe.name()+"\t"+oe.ordinal());
 		}
 		
-		// Note ::: Most programmers should use the toString() method in preference to this one, as the toString method may return a more ***REMOVED***-friendly name
+		// Note ::: Most programmers should use the toString() method in preference to this one, as the toString method may return a more user-friendly name
 		
 		for (OutterEnum.InnerEnum ie : OutterEnum.InnerEnum.values()) 
 		{
